@@ -1,19 +1,19 @@
 jQuery(function ($) {
   // List of Github/Travis projects to query
   var projects = [
-    'xdv/divvyd',
-    'xdv/divvy-lib',
+    'payshares/paysharesd',
+    'payshares/payshares-lib',
     {
-      name: 'xdv/divvy-lib-java',
+      name: 'payshares/ruby-payshares-lib',
       branch: 'master'
     },
-    'xdv/divvy-client',
+    'payshares/payshares-client',
     {
-      name: 'xdv/divvy-blobvault',
+      name: 'payshares/horizon',
       branch: 'master'
     },
-    'xdv/divvy-rest',
-    'xdv/gatewayd'
+    'payshares/ruby-payshares-base',
+    'payshares/payshares-data-api'
   ];
 
   // Some customization for Moment.js
