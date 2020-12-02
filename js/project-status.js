@@ -1,19 +1,71 @@
 jQuery(function ($) {
   // List of Github/Travis projects to query
   var projects = [
-    'payshares/paysharesd',
-    'payshares/payshares-lib',
+    {
+      name: 'payshares/paysharesd',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/payshares-lib',
+      branch: 'master'
+    },
     {
       name: 'payshares/ruby-payshares-lib',
       branch: 'master'
     },
-    'payshares/payshares-client',
+    {
+      name: 'payshares/payshares-client',
+      branch: 'master'
+    },
     {
       name: 'payshares/horizon',
       branch: 'master'
     },
-    'payshares/ruby-payshares-base',
-    'payshares/payshares-data-api'
+    
+    {
+      name: 'payshares/ruby-payshares-base',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/payshares-data-api',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/payshares-xdr-gen',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/payshares-wallet-js-sdk',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/ruby-payshares-xdr',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/ruby-payshares-xdr',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/payshares-wallet',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/payshares-payments',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/payshares-chart-frontend',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/payshares-core',
+      branch: 'master'
+    },
+    {
+      name: 'payshares/sjcl',
+      branch: 'master'
+    }
   ];
 
   // Some customization for Moment.js
