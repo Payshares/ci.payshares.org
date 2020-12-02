@@ -21,17 +21,12 @@ jQuery(function ($) {
       name: 'payshares/horizon',
       branch: 'master'
     },
-    
     {
       name: 'payshares/ruby-payshares-base',
       branch: 'master'
     },
     {
-      name: 'payshares/payshares-data-api',
-      branch: 'master'
-    },
-    {
-      name: 'payshares/payshares-xdr-gen',
+      name: 'payshares/payshares-xdrgen',
       branch: 'master'
     },
     {
